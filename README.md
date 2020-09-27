@@ -10,7 +10,7 @@
 
 ## :computer: Tech Stack:
 
-#### HTML , CSS , JavaScript , React , Express
+#### HTML , CSS , JavaScript .
 
 ---
 

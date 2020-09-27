@@ -13,7 +13,7 @@ body {
   display: none;
 }
 /*display burger button*/
-header .is-active .navbar-menu {
+header.is-active .navbar-menu {
   display: block;
   position: absolute;
   top: 64px;
@@ -22,7 +22,7 @@ header .is-active .navbar-menu {
   right: 0;
   z-index: 1;
 }
-header .is-active .navbar-menu .navbar-item {
+header.is-active .navbar-menu .navbar-item {
   display: flex;
   padding: 16px 16px 18px;
   color: white;
@@ -39,14 +39,14 @@ header .is-active .navbar-menu .navbar-item {
 .navbar-menu .navbar-item:hover {
   color: rgba(235, 163, 29, 0.931);
 }
-header .is-active .navbar-burger .navicon {
+header.is-active .navbar-burger .navicon {
   background-color: transparent;
 }
-header .is-active .navbar-burger .navicon::before {
+header.is-active .navbar-burger .navicon::before {
   transform: rotate(45deg);
   top: 0;
 }
-header .is-active .navbar-burger .navicon::after {
+header.is-active .navbar-burger .navicon::after {
   transform: rotate(-45deg);
   top: 0;
 }
@@ -146,7 +146,6 @@ section.featuredMovies {
 }
 .movies-grid {
   display: flex;
-  /* flex-wrap: nowrap; */
   overflow: scroll;
   margin-right: 16px;
   list-style-type: none;
@@ -191,6 +190,21 @@ footer .logout:hover {
 }
 .grayscale {
   filter: grayscale(0.5);
+}
+/*movie and shows section*/
+form {
+  margin: 12px auto;
+}
+label.movieTypeLabel {
+  padding: 0 12px;
+  font-size: 18px;
+  color: wheat;
+  font-weight: bold;
+}
+select#movieType {
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
 }
 /*media queries*/
 @media only screen and (min-width: 768px) and (max-width: 1220px) {
