@@ -8,6 +8,57 @@ body {
   background-color: #191919;
   font-family: "Cairo", sans-serif;
 }
+.is-loggedOut header,
+.is-loggedOut footer {
+  display: none;
+}
+label {
+  color: wheat;
+  padding: 12px 12px 12px 15px;
+}
+a {
+  text-decoration: none;
+  color: wheat;
+  font-size: 19px;
+  display: block;
+}
+.logo {
+  position: relative;
+  top: 20px;
+}
+/*login and register*/
+#login-form,
+#register-form {
+  position: relative;
+  top: 20px;
+}
+.is-loggedOut {
+  text-align: center;
+}
+#email,
+#password {
+  padding: 7px 10px;
+}
+.form-field {
+  margin: 8px;
+  padding: 12px 12px 12px 15px;
+  display: flex;
+  flex-direction: column;
+}
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+  width: 300px;
+  margin: auto;
+}
+input[type="submit"] {
+  padding: 9px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgb(209, 159, 33);
+}
+
 /*header*/
 .navbar-menu {
   display: none;
