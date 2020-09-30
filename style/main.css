@@ -215,6 +215,8 @@ section.featuredMovies {
   opacity: 0;
   direction: ltr;
   color: white;
+  font-size: 15px;
+  text-align: left;
 }
 .movies-grid li:hover .movie-description {
   opacity: 1;
